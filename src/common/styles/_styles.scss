@@ -1,0 +1,19 @@
+// Colours
+$primary: rgb(1, 126, 246);
+$secondary: rgb(182, 252, 228);
+$gray: rgb(54, 52, 52);
+$white: rgb(255, 255, 255);
+
+@mixin buttonStyle($bg, $color) {
+  padding: 0 30px;
+  height: 48px;
+  background-color: $bg;
+  color: $color;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  font-family: sans-serif 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}

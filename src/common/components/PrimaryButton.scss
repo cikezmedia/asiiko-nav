@@ -1,0 +1,5 @@
+@import '../styles/styles';
+
+.primary-button {
+  @include buttonStyle($primary, $white);
+}
